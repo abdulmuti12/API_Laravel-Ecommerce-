@@ -1,0 +1,50 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+.env
+.env.backup
+/.vscode/
+/.idea/
+/node_modules/
+/vendor/
+/storage/
+storage/*.key
+storage/oauth-private.key
+storage/oauth-public.key
+storage/debugbar/
+/bootstrap/cache/
+public/storage
+/public/hot
+/public/storage
+/public/js/*.map
+/public/css/*.map
+
+# Ignore Composer dependencies
+composer.lock
+
+# Ignore npm/yarn dependencies
+package-lock.json
+yarn.lock
+
+# Ignore logs and cache
+*.log
+*.cache
+*.phpunit.result.cache
+/.phpunit.result.cache
+
+# Ignore database files
+Homestead.yaml
+Homestead.json
+/.homestead
+/.docker
+
+# Ignore Laravel Telescope
+/telescope
+
+# Ignore Laravel Horizon
+/horizon
+
+# Ignore IDE files
+*.sublime-project
+*.sublime-workspace
+*.phpstorm.meta.php
