@@ -15,6 +15,9 @@ Thumbs.db
 # /bootstrap/cache/
 # public/storage
 /public/hot
+/storage/*
+!/storage/products/
+
 # /public/storage
 /public/js/*.map
 /public/css/*.map
