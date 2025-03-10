@@ -7,15 +7,11 @@ Thumbs.db
 /.idea/
 /node_modules/
 /vendor/
-# /storage/
-# storage/*.key
-# storage/oauth-private.key
-# storage/oauth-public.key
-# storage/debugbar/
-# /bootstrap/cache/
-# public/storage
-/public/hot
 /storage/*
+!/storage/app/
+/storage/app/*
+!/storage/app/public/
+/storage/app/public/*
 !/storage/app/public/products/
 
 # /public/storage
