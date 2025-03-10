@@ -16,7 +16,7 @@ Thumbs.db
 # public/storage
 /public/hot
 /storage/*
-!/storage/products/
+!/storage/app/public/products/
 
 # /public/storage
 /public/js/*.map
