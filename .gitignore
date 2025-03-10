@@ -13,8 +13,8 @@ Thumbs.db
 # storage/oauth-public.key
 # storage/debugbar/
 /bootstrap/cache/
-# public/storage
-# /public/hot
+public/storage
+/public/hot
 # /public/storage
 /public/js/*.map
 /public/css/*.map
